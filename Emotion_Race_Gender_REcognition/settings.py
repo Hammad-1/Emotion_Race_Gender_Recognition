@@ -27,7 +27,7 @@ DEBUG = True
 
 # ALLOWED_HOSTS = []
 ALLOWED_HOSTS = [
- "HammadNaveedElevateAITask.herokuapp.com", "localhost", "127.0.0.1"
+ "hammadnaveedelevateai.herokuapp.com", "localhost", "127.0.0.1"
 ]
 
 # Application definition
