@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<h1 align="center">Emotion Race And Gender Recognition Elevate AI Task</h1>
+<label for="avatar" ><h3>Choose a profile picture:</h3></label>
+<form action="" class="search-bar" method="post" enctype='multipart/form-data'>
+    {% csrf_token %}
+    <input type="file"  id="avatar" name="avatar" accept="image/png, image/jpeg">
+    <br>
+    <input type="submit" value="Submit">
+
+    {% if emotion %}
+    <h1>RESULTS</h1>
+    <p><b>EMOTION:</b> {{emotion}}</p>
+    <p><b>GENDER:</b> {{gender}}</p>
+    <p><b>RACE:</b> {{race}} </p>
+{% endif %}
+</body>
+</html>
