@@ -27,7 +27,7 @@ DEBUG = True
 
 # ALLOWED_HOSTS = []
 ALLOWED_HOSTS = [
- "twitertool.herokuapp.com", "localhost", "127.0.0.1"
+ "HammadNaveedElevateAITask.herokuapp.com", "localhost", "127.0.0.1"
 ]
 
 # Application definition
